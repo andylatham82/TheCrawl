@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "title": "The Crawl",
+  "description": "The Crawl is a dungeon crawling platformer in which you have to find a path that allows you to discover enough keys to make it to the exit.",
+  "author": "Andy Latham",
+  "version": "1.0",
+  "date": "2019-08-12",
+  "genre": "Platformer",
+  "publisher": "Lathesoft",
+  "idea": "Andy Latham",
+  "code": "Andy Latham",
+  "art": "Andy Latham",
+  "sound": "Andy Latham",
+  "url": "",
+  "sourceUrl": "",
+  "email": "andylatham82@hotmail.com",
+  "companion": "",
+  "banner": "Banner.png",
+  "screenshots": [
+    {
+      "filename": "Screenshot1.png"
+    },
+    {
+      "filename": "Screenshot2.png"
+    },
+    {
+      "filename": "Screenshot3.png"
+    }
+  ],
+  "binaries": [
+    {
+      "title": "The Crawl",
+      "filename": "TheCrawl.hex",
+      "device": "Arduboy"
+    }
+  ],
+  "buttons": [
+    {
+      "control": "A",
+      "action": "Jump"
+    },
+    {
+      "control": "B",
+      "action": "Pause"
+    },
+    {
+      "control": "A + B",
+      "action": "Reset"
+    }
+  ],
+  "eeprom": {
+    "variable": false,
+    "start": 16,
+    "end": 66
+  }
+}
